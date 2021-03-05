@@ -7,6 +7,8 @@ First install Hadoop in you system. Follow the steps to install
 
 https://phoenixnap.com/kb/install-hadoop-ubuntu
 
+# Then start executing given commands
+
 cd hadoop-3.2.2/sbin
 
 ./start-dfs.sh
