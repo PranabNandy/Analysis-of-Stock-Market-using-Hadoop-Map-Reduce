@@ -23,7 +23,7 @@ public class MainStockAnalysis {
 	     Job job3 = Job.getInstance();
 	     job3.setJarByClass(MapReduceStage3.class);
 	     
-		System.out.println("\n**********Stock_Analysis_Hadoop_MapReduce-> Start**********\n");
+		System.out.println("\n ---------- Analysis_Of_Stock_Market_Hadoop_MapReduce-> Start  --------- \n");
 
 		job.setJarByClass(MapReduceStage1.class);
 		job.setMapperClass(MapReduceStage1.Map1.class);
@@ -69,6 +69,6 @@ public class MainStockAnalysis {
 			long end = new Date().getTime();
 			System.out.println("\nJob took " + (end-start)/1000 + "seconds\n");
 		}
-		System.out.println("\n**********Stock_Analysis_Hadoop_MapReduce-> End**********\n");		
+		System.out.println("\n ---------- Analysis_Of_Stock_Market_Hadoop_MapReduce-> End  --------- \n");	
 	}
 }
